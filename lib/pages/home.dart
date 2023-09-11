@@ -46,9 +46,10 @@ class Home extends StatelessWidget {
                   // primary: Theme.of(context).primaryColor,
                   backgroundColor: Colors.black26,
                   padding: EdgeInsets.symmetric(horizontal: 50.0, vertical: 15.0),
+                  enabledMouseCursor: SystemMouseCursors.basic
                 ),
                 onPressed: () => _handleURLButtonPress(context, _links[0]),
-                child: Text('View GitHub Profile'),
+                child: Text('Open Github'),
               ),
             ],
           ),

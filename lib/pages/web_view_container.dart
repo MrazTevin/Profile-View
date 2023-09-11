@@ -19,7 +19,9 @@ class _WebViewContainerState extends State<WebViewContainer> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
+      appBar: AppBar(
+        backgroundColor: Colors.amberAccent,
+      ),
       body: Column(
         children: [
           Expanded(
