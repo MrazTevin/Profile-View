@@ -1,16 +1,40 @@
 # profile_app
 
-A new Flutter project.
+A simple mobile app that displays my Github profile page.
 
-## Getting Started
+## Specifications
 
-This project is a starting point for a Flutter application.
+> 1. Slack Name: The application’s main screen should prominently display your Slack name.
+> 2. Display Picture: Integrate your Slack display picture onto the main screen, ensuring it’s clear and of high quality.
+> 3. Open GitHub Button: Add a button labeled “Open GitHub” to the main screen. When pressed, it should correctly redirect users to your GitHub profile using a WebView component within the application.
 
-A few resources to get you started if this is your first Flutter project:
+<hr>
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Want to get started ? These instructions will get you a copy of the project up and running on your local machine for development and testing purposes : 
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Prerequisites
+
+```
+  1. Git
+  2. Dart: 3.1.0 versions
+  3. Flutter: 3.13.2 or greater version
+  4. VsCode
+  5. Android / IOS Emulator
+```
+
+### Installing
+
+> Follow this procedure to get my project up and running in your Desktop or Laptop.
+
+```
+> Install the Flutter framework
+> Install Dart 
+> $ git clone https://github.com/MrazTevin/Profile-View/edit/main/README.md
+> $ cd Profile-View
+> $ Install all dependencies with flutter pub get
+> $ Use '''flutter run''' to run the app
+```
+
+## Check the app in action
+
+* [Appetizer](https://appetize.io/app/gj5ydv5x6a3ckzfs6wvmw2b6eu?device=pixel6&osVersion=13.0&scale=75) - Preview the App
